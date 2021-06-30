@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> SHOP </title>
+        <style>
+            #logo {
+                float:left;
+                margin: 10px 0 0 10px;
+            }
+            #top {
+                float: right;
+                margin: 20px 10px 0 20px;
+            }
+            #main {
+                display: flex;
+                justify-content: center;
+                margin: 50px 0 0 0;
+            }
+            #menu {
+                float:left;
+                position: fixed;
+                top:250px;
+                margin: 20px 0 0 10px;
+            }
+            .sale {
+                background-color: yellow;
+                width:70px;
+                margin: 0;
+                float:left;
+            }
+            del {
+                float: left;
+                margin-right:10px;
+            }
+            hr {
+                clear: both;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="head">
+            <div id="logo">
+                <img src="./img/zara.png" width="300" height="200">
+            </div>
+            <div id="top">
+                <a href="./login.html"> LOGIN</a> | <a href="./join.html">JOIN US</a> | <a href="./cart.html">CART</a>
+            </div>
+        </div>
+        <hr>
+        <div id="main">
+            <span>
+                <img src="./img/top6_detail.jpg" width="300" height="450">
+                <h1>린넨 플로랄 프린트 탑</h1>
+                <h5>린넨 혼방 소재 크롭 탑. 스퀘어넥 반소매 디자인. 앞면 버튼 크로스 여밈.</h5>
+                <p/><del>45,000원</del>
+                <h4 class="sale">29,000원</h4>
+                <br>
+                <h5>색상: 샌드 | 2674/663</h5>
+                <select>
+                    <option>s</option>
+                    <option>m</option>
+                    <option>l</option>
+                    <option>xl</option>
+                </select>
+                <button name="btn">장바구니</button>
+            </span>
+        </div>
+        <div id="menu">
+            <b>SHOP</b><p/>
+            <div id="category">
+                NEW ARRIVALS<p/>
+                <a href="./tops.html"> TOPS </a><p/>
+                <a href="./bottoms.html">BOTTOMS</a><p/>
+                <a href="./dress.html">DRESSES</a><p/>
+                <a href="./accessories.html"> ACCESSORIES</a><p/>
+            </div>
+        </div>
+    </body>
+</html>

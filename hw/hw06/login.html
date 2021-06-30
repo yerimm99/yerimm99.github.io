@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> SHOP </title>
+        <style>
+            #logo {
+                float:left;
+                margin: 10px 0 0 10px;
+            }
+            #top {
+                float: right;
+                margin: 20px 10px 0 20px;
+            }
+            #main {
+                display: flex;
+                justify-content: center;  
+            }
+            #menu {
+                float:left;
+                position: fixed;
+                top:250px;
+                margin: 20px 0 0 10px;
+            }
+            hr {
+                clear: both;
+            }
+            .submit {
+                display: flex;
+                justify-content: center;
+                margin: 50px 0 0 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="head">
+            <div id="logo">
+                <img src="./img/zara.png" width="300" height="200">
+            </div>
+            <div id="top">
+                <a href="./login.html"> LOGIN</a> | <a href="./join.html">JOIN US</a> | <a href="./cart.html">CART</a>
+            </div>
+        </div>
+        <hr>
+        <div id="main">
+            <div class="login_id">
+                <h4>E-mail</h4>
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="login_pw">
+                <h4>Password</h4>
+                <input type="password" placeholder="Password">
+            </div>
+        </div>
+        <div class="submit">
+            <input type="submit" value="submit">
+        </div>
+        <div id="menu">
+            <b>SHOP</b><p/>
+            <div id="category">
+                NEW ARRIVALS<p/>
+                <a href="./tops.html"> TOPS </a><p/>
+                <a href="./bottoms.html">BOTTOMS</a><p/>
+                <a href="./dress.html">DRESSES</a><p/>
+                <a href="./accessories.html"> ACCESSORIES</a><p/>
+            </div>
+        </div>
+    </body>
+</html>

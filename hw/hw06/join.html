@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> SHOP </title>
+        <style>
+            #logo {
+                float:left;
+                margin: 10px 0 0 10px;
+            }
+            #top {
+                float: right;
+                margin: 20px 10px 0 20px;
+            }
+            #main {
+               text-align: center;
+               font-family: "맑은 고딕";
+            }
+            #menu {
+                float:left;
+                position: fixed;
+                top:250px;
+                margin: 20px 0 0 10px;
+            }
+            hr {
+                clear: both;
+            }
+            .submit {
+                display: flex;
+                justify-content: center;
+                margin: 50px 0 0 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="head">
+            <div id="logo">
+                <a href="./hw06.html" ><img src="./img/zara.png" width="300" height="200"></a>
+            </div>
+            <div id="top">
+                <a href="./login.html"> LOGIN</a> | <a href="./join.html">JOIN US</a> | <a href="./cart.html">CART</a>
+            </div>
+        </div>
+        <hr>
+        <div id="main">
+                <b>아이디</b>
+                <input type="text" name="user_ID" >
+                <input type="button" name="user_IDcheck" value="아이디 확인">
+                <br> <br> 
+                <b>비밀번호</b>
+                <input type="password" name="user_PW1" value=""><br><br> 
+                <b>비밀번호 재확인</b>
+                <input type="password" name="user_PW2" value="">
+                <input type="button" name="user_PWcheck" value="비밀번호 재확인">
+                <br><br>
+                <b>이름</b> <input type="text" name="user_name" value=""> <br><br> 
+                <b>생년월일</b>
+                <input type="date" value="2021-06-30">
+                <br><br>
+                <b>성별</b>
+                <label for="man">남자</label>
+                <input type="radio" name="gender" value="m" id="man">
+                <label for="woman">여자</label>
+                <input type="radio" name="gender" value="m" id="woman"> <br><br>
+                <b>이메일 </b><input type="email" name="user_email" placeholder="email@gmail.com"><br><br>
+                <b>휴대전화 </b>
+                <input type="text" name="user_phone" placeholder="010-****-****">
+                <input type="button" name="certification" value="인증번호 받기"><br><br> 
+                <input type="text" name="certification" placeholder="인증번호를 입력하세요">
+                <input type="button" name="certification" value="확인"><br><br>
+        </div>
+        <div class="submit">
+            <input type="submit" value="submit">
+        </div>
+        <div id="menu">
+            <b>SHOP</b><p/>
+            <div id="category">
+                NEW ARRIVALS<p/>
+                <a href="./tops.html"> TOPS </a><p/>
+                <a href="./bottoms.html">BOTTOMS</a><p/>
+                <a href="./dress.html">DRESSES</a><p/>
+                <a href="./accessories.html"> ACCESSORIES</a><p/>
+            </div>
+        </div>
+    </body>
+</html>
