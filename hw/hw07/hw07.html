@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> SHOP </title>
+        <style>
+            #logo {
+                float:left;
+                margin: 10px 0 0 10px;
+            }
+            #top {
+                float: right;
+                margin: 20px 10px 0 20px;
+            }
+            #main {
+                display: flex;
+                justify-content: center;
+                margin: 50px 0 200px 200px;
+            }
+            #menu {
+                float:left;
+                position: fixed;
+                top:250px;
+                margin: 20px 0 0 10px;
+            }
+            hr {
+                clear: both;
+            }
+            a {
+                text-decoration:none;
+                color: black;
+            }
+            footer {
+                padding: 20px 0 0 15px;
+            }
+            li {
+                font-size: 10px;
+            }
+            ul {
+                border-top: solid 1px lightgray;
+                width: 45%;
+                list-style: none;
+                margin-left: 50px;
+            }
+            #info {
+                border-top: solid 1px gray;
+                padding-top: 15px;
+            }
+            @media(max-width:600px){
+                #grid {
+                    display: none;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div id ="grid">
+            <header>
+            <div id="head">
+                <div id="logo">
+                    <a href="./hw07.html" ><img src="./../hw06/img/zara.png" width="300" height="200"></a>
+                </div>
+                <div id="top">
+                    <a href="./../hw06/login.html"> LOGIN</a> | <a href="./../hw06/join.html">JOIN US</a> | <a href="./../hw06/cart.html">CART</a>
+                </div>
+            </div>
+            </header>
+            <hr>
+            <aside>
+                <nav>
+                    <div id="menu">
+                        <b>SHOP</b><p/>
+                        <div id="category">
+                            NEW ARRIVALS<p/>
+                            <a href="./../hw06/tops.html"> TOPS </a><p/>
+                            <a href="./../hw06/bottoms.html">BOTTOMS</a><p/>
+                            <a href="./../hw06/dress.html">DRESSES</a><p/>
+                            <a href="./../hw06/accessories.html"> ACCESSORIES</a><p/>
+                        </div>
+                        <div id="info">
+                            <a href="./info.html">고객센터</a>
+                        </div>
+                    </div>
+                </nav>
+            </aside>
+            <main>
+                <section>
+                    <div id="main">
+                        <img src="./../hw06/img/main.jpg" width="500" height="350">
+                    </div>
+                </section>
+            </main>
+            <footer>
+                <article>
+                    <ul>
+                        <li>아이티엑스코리아 유한회사 | 대표자 :ROMAY DE LA COLINA JOSE MANUEL | 서울시 강남구 영동대로 511(삼성동, 트레이드타워 33층) </li>
+                        <li>대표번호 : 080-479-0880 | 이메일: CONTACT.KR@ZARA.COM | 개인정보처리방침 | 이용약관 </li>
+                    </ul>
+                </article>
+            </footer>
+        </div>
+    </body>
+</html>
