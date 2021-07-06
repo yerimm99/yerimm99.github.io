@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script>
+            var gugu = new Array();
+            var dan, n, result;
+
+            document.write("<table border='1'>");
+            for (var dan = 1; dan <= 9; dan++) {
+                document.write("<th>" + dan + "단" + "</th>");
+                gugu[dan] = new Array();
+            }
+            for(dan = 1; dan <= 9; dan++) {
+                document.write("<tr>");
+                for(n = 1; n <= 9; n++) {
+                    gugu[n][dan] = n * dan;
+                    document.write("<td>" + n + '*' + dan + '=' + gugu[n][dan] + "</td>");
+                }
+                document.write("</tr>");
+            }
+            document.write("</table>");
+
+            function printData() {
+                for(dan = 1; dan <= 9; dan++) {
+                    for(n = 1; n <= 9; n++) {
+                        document.write( gugu[n][dan] + " ");
+                    }
+                    document.write("<p/>");
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <p/>
+        <button type="button" onclick="printData()">구구단 배열 데이터 보기</button>
+    </body>
+</html>
